@@ -1,3 +1,4 @@
 // Write your solution here!
 
-let drivers =
+let drivers = ["Milo", "Otis", "Garfield"]
+
