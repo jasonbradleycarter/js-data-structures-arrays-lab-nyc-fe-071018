@@ -36,7 +36,11 @@ function removeLastDriver() {
   return driversCopy;
 }
 
-
+function removeFirstDriver() {
+  const driversCopy = drivers.slice();
+  driversCopy.shift(name);
+  return driversCopy;
+}
 
 
 
