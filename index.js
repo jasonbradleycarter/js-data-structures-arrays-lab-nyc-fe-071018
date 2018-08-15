@@ -30,7 +30,11 @@ function prependDriver(name) {
   return driversCopy;
 }
 
-
+function removeLastDriver() {
+  const driversCopy = drivers.slice();
+  driversCopy.pop(name)
+  return driversCopy;
+}
 
 
 
