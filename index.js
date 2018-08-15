@@ -41,12 +41,3 @@ function removeFirstDriver() {
   driversCopy.shift(name);
   return driversCopy;
 }
-
-
-
-
-
-
-
-
-
